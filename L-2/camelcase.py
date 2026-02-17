@@ -1,0 +1,12 @@
+def main():
+    camel_input = input("camelCase: ")
+    
+    print("snake_case: ", end="")
+    
+    for char in camel_input:
+        if char.isupper():
+            print("_" + char.lower(), end="")
+        else:
+            print(char, end="")
+    print()
+main()    
