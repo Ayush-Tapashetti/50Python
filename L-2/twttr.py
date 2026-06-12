@@ -4,21 +4,15 @@ In a file called twttr.py, implement a program that prompts the user for a str o
 text and then outputs that same text but with all vowels (A, E, I, O, and U) 
 omitted, whether inputted in uppercase or lowercase"""
 
-a = input("Give me some input ")
-n = len(a)
-p=0
+a= input("Givem me some input")
+b="AEIOUaeiou"
+p=[]
 
-while p<n:
-    if a[p] == 'a':
-       a =  a.replace("a", "")
-    elif a[p] == "e":
-        a = a.replace("e", "")
-    elif a[p] == "i":
-        a = a.replace("i", "")
-    elif a[p] == "o":
-        a = a.replace("o", "")  
-    elif a[p] == "u":
-        a = a.replace("u", "")    
-    else:  p=p+1
+for i in range(len(a)):
+    if a[i] in b:
+        pass
+    else:
+        p.append(a[i])
 
-print(a)
+for i in range(len(p)):
+    print(p[i], end="")
