@@ -1,0 +1,9 @@
+Well, Hello there folks...
+This is my repository for my learning from this course of CS50by DAVID MALAN...
+Have fun going through them and also, do criticize the code, time or space complexity...
+But do remember that all of it might seem like very manual written because this was my time of shift from C++ to python, so use of functions is little less than usual and it all feels 
+hard written codes.
+
+Thank you!!
+
+Peace OUT
